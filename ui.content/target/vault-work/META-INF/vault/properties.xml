@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>ftd - UI content</comment>
+<entry key="createdBy">narnandh</entry>
+<entry key="name">ftd.ui.content</entry>
+<entry key="created">2018-03-30T08:50:10.744-0400</entry>
+<entry key="groupId">ftd</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">ftd</entry>
+<entry key="description">UI content package for ftd</entry>
+<entry key="artifactId">ftd.ui.content</entry>
+<entry key="path">/etc/packages/ftd/ftd.ui.content.zip</entry>
+</properties>

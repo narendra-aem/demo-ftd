@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspaceFilter version="1.0">
+    <filter root="/conf/ftd" />
+    <filter root="/content/ftd" />
+    <filter root="/content/dam/ftd" />
+</workspaceFilter>

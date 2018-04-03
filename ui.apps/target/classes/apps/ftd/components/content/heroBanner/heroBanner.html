@@ -1,0 +1,23 @@
+<div data-sly-use.templates="core/wcm/components/commons/v1/templates.html"
+     data-asset="${hero.fileReference}"
+     data-title="${hero.title || hero.alt}">
+
+
+    <sly data-sly-use.hero="ftd.core.models.HeroBannerModel">
+        <h3>${hero.title}</h3>
+        <h4>${hero.description}</h4>
+        <a data-sly-unwrap="${!hero.linkURL}"
+           class="cmp-image__link" href="${hero.linkURL}"
+           data-cmp-hook-image="link">
+                <img src="${hero.fileReference}" class="cmp-image__image" data-cmp-hook-image="image"
+                     alt="${hero.alt || true}" />
+            </noscript>
+        </a>
+
+        <a href="${hero.ctaLink}" target="${hero.target}">${hero.ctaTitle}</a>
+    </sly>
+</div>
+
+<sly data-sly-call="${templates.placeholder @ isEmpty = !image.src, classAppend = 'cmp-image cq-dd-image'}"></sly>
+
+
